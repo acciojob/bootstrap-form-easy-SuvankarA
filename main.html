@@ -13,21 +13,21 @@
 	<h1>Internship Form</h1>
 	<form class="row g-3 needs-validation mt-5" novalidate>
 		<div class="col-md-4">
-			<label for="validationCustom01" class="form-label">First name</label>
+			<label for="vfirst-name-input" class="form-label">First name</label>
 			<input type="text" class="form-control" id="first-name-input" placeholder="Enter first name" required>
 			<div class="invalid-feedback">
 				First Name Required
 			</div>
 		</div>
 		<div class="col-md-4">
-			<label for="validationCustom02" class="form-label">Last name</label>
+			<label for="last-name-input" class="form-label">Last name</label>
 			<input type="text" class="form-control" id="last-name-input" placeholder="Enter last name" required>
 			<div class="invalid-feedback">
 				Last Name Required
 			</div>
 		</div>
 		<div class="col-md-4">
-			<label for="validationCustomUsername" class="form-label">Email Address</label>
+			<label for="email-input" class="form-label">Email Address</label>
 			<div class="input-group has-validation">
 				<!-- <span class="input-group-text" id="inputGroupPrepend">@</span> -->
 				<input type="email" class="form-control" id="email-input"
@@ -38,27 +38,27 @@
 			</div>
 		</div>
 		<div class="col-md-6">
-			<label for="validationCustom03" class="form-label">College</label>
+			<label for="college-input" class="form-label">College</label>
 			<input type="text" class="form-control" id="college-input" required>
 			<div class="invalid-feedback">
 				Please provide a valid college.
 			</div>
 		</div>
 		<div class="col-md-3">
-			<label for="validationCustom04" class="form-label">Graduation Year</label>
-			<select class="form-select" id="graduation-year-input" required>
-				<option selected disabled value="">Choose...</option>
-				<option>2020</option>
-				<option>2021</option>
-				<option>2022</option>
-				<option>2023</option>
+			<label for="grad-year-select" class="form-label">Graduation Year</label>
+			<select class="form-select" id="grad-year-select" required>
+				<option id="grad-year-select" selected disabled value="">Choose...</option>
+				<option id="grad-year-select">2020</option>
+				<option id="grad-year-select">2021</option>
+				<option id="grad-year-select">2022</option>
+				<option id="grad-year-select">2023</option>
 			</select>
 			<div class="invalid-feedback">
 				Please select a valid Graduation Year.
 			</div>
 		</div>
 		<div class="col-md-3">
-			<label for="validationCustom05" class="form-label">Roll No.</label>
+			<label for="roll-no-input" class="form-label">Roll No.</label>
 			<input type="text" class="form-control" id="roll-no-input" required>
 			<div class="invalid-feedback">
 				Please provide a valid Roll No.
@@ -67,7 +67,7 @@
 		<div class="col-12">
 			<div class="form-check">
 				<input class="form-check-input" type="checkbox" value="" id="conditions-checkbox" required>
-				<label class="form-check-label" for="invalidCheck">
+				<label class="form-check-label" for="conditions-checkbox">
 					Agree to terms and conditions
 				</label>
 				<div class="invalid-feedback">
